@@ -1,0 +1,65 @@
+.bannerSection{
+  position: relative;
+  background-color:#2c2c37;
+}
+.bannerSection img{
+height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+.bannerText{
+  text-align: center;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.bannerHeading{
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 42px;
+  color: #ffc451;
+  text-shadow: 2px 2px 2px #2f2f2f6e;
+  letter-spacing: 2px;
+  margin-bottom: 21px;
+}
+.bannerSubheading{
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 400;
+  text-shadow: 1px -1px 0 rgba(0, 0, 0, 0.2);
+}
+.clipMask  svg {
+ position: absolute;
+bottom: 0px;
+width: 100%;
+z-index: 99;
+fill: #2c2c37;
+}
+@media (max-width: 700px){
+.bannerText{
+width: 83%;
+height: 100px;
+}
+.bannerSubheading{
+  font-size: 22px;
+margin: 0;
+}
+.bannerHeading{
+
+  font-size: 28px;
+
+}
+.clipMask  svg {
+  display:none;
+}
+.bannerSection img{
+  height: auto;
+  -o-object-fit: contain;
+  object-fit: contain;
+  margin-top: 70px;
+}
+}

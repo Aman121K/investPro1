@@ -1,0 +1,27 @@
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #ffc451;
+    font-weight: 600;
+}
+.quote{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+    color: #ddd;
+    font-style: italic;
+    margin-bottom: 70px;
+}
+.headingSection{
+    margin-bottom: 40px;
+}
+@media (max-width: 700px){
+.title{
+    font-size: 28px;
+}
+.quote{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+}

@@ -1,0 +1,104 @@
+.content{
+    margin: 100px 0;
+}
+.linksSection{
+    padding-top: 10px;
+}
+.links:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.links1{
+    margin-top: 30px;
+}
+.links1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.content   {
+
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+    background: #2b2b37;
+    box-shadow: 0px 14px 9px -4px #0000000f;
+    border-radius: 12px;
+    margin-top: 120px;
+    border: 1px solid #2f2f3e;
+    margin-bottom: 80px;
+    color: #c1c1c1;
+}
+.content  img  {
+    width: 100%;
+    background: #1c1c24;
+    padding: 30px;
+    height: 100%;
+    border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+object-fit: contain;
+opacity: 0.8;
+filter: contrast(1.1);
+
+}
+
+.jke1{
+    margin: auto;
+    display: flex;
+    background:  #ffc451 !important;
+    border: inherit !important;
+    padding: 8px 39px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+.linksSection p{
+text-align: center;
+font-size: 13px;
+}
+.linksSection p:last-child{
+    text-align: center;
+    font-size: 14px;
+    }
+    .kl3 h3{
+        margin-bottom: 10px;
+        font-size: 34px;
+    }
+    .kl3 h3:last-child{
+        font-size: 24px;
+    }
+    .kl3 input{
+        font-size: 13px;
+        background: #1c1c24 !important;
+        border: none !important;
+        box-shadow: none !important;
+        color: #cecece !important;
+    }
+    .kl3{
+    padding: 30px;
+    }
+    @media (min-width: 1000px){
+        .content   {
+        width: 900px;
+        }
+        .kl3{
+            padding: 30px 40px 24px 15px;
+        }
+    }
+    @media (max-width: 700px){
+        .content  img {
+            display: none;
+        }
+        .jke1{
+            font-size: 12px;
+        }
+        .content .form-label {
+         margin-bottom: .5rem;
+         font-size: 14px;
+       }
+
+    }

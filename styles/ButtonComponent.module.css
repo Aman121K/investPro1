@@ -1,0 +1,22 @@
+.buttonContainer{
+    text-align: center;
+    padding-top: 40px;
+}
+.buttonContainer button{
+    background-color: #ffc451;
+    border-color: #ffc451 ;
+    font-weight: 600;
+    padding: 10px 29px;
+}
+.buttonContainer button:hover{
+    background-color: transparent;
+    color: #ffc451 ;
+
+    
+}
+@media (max-width: 700px){
+    .buttonContainer button{
+        padding: 5px 20px;
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,14 @@
+.recentPosts{
+    padding: 60px 0;
+    padding-top:120px ;
+}
+.recentPosts img{
+    filter: grayscale(0.6);
+    height: 150px;
+    object-fit: cover;
+}
+.recentPosts img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+   border-radius: 3px;
+}

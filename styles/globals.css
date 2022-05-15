@@ -1,0 +1,94 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: #25252f;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.layout{
+  min-height: 75vh;
+}
+.content{
+  margin-top: 90px;
+}
+.fixed-top {
+  height: 70px;
+  box-shadow: 0 0 3px rgb(0 0 0 / 30%);
+  }
+  .nav-link{
+  position: relative;
+  }
+
+@media (min-width: 1600px){
+.container{
+    max-width: 1520px;
+}
+}
+@media (min-width: 1900px){
+  .container{
+      max-width: 1720px;
+  }
+  }
+  .navbar-dark .navbar-toggler {
+    background: transparent;
+    padding: 3px 6px;
+    outline: none !important;
+    box-shadow: none !important;
+  
+  }
+  .navbar-collapse{
+  background: #1c1c24 !important;
+padding: 15px;
+border-radius: 4px;
+font-size: 11px;
+
+  }
+  .bg-light {
+    background-color: #1c1c24 !important;
+  }
+  .btn-primary {
+    color: #25252f;
+  }
+  .btn-primary:hover {
+    border-color: #ffc451;
+  }
+  @media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1.2rem;
+        padding-left: 1.2rem;
+    }
+        .navbar-collapse{
+        padding: 0px;
+    }
+  }
+  .flaot1{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 42px;
+    right: 42px;
+    background-color: #FFC451;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    z-index: 777;
+    box-shadow: 2px 2px 3px #0000003b;
+
+  }
+  .flaot1 svg{
+  width: 25px;
+display: flex;
+margin: auto;
+top: 0px;
+bottom: 0px;
+position: absolute;
+left: 0px;
+right: 0px;
+fill: #25252f;
+  }

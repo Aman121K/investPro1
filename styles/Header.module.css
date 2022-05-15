@@ -1,0 +1,74 @@
+.navigation{
+    height: 150px !important;
+}
+.navlinks{
+    color: #d2d2d2 !important;
+}
+.UploadBtn{
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    color:  #ffc451 !important;
+    border-radius: 5px;
+    border: 2px solid  #ffc451;
+    width: 125px;
+text-align: center;
+
+    letter-spacing: 1px;
+}
+.navlinks svg{
+fill: #d2d2d2 !important;
+width: 20px;
+}
+.navlinks{
+text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.navlinks img{
+  width: 170px;
+    image-rendering: -webkit-optimize-contrast;
+    padding-left: 0px;
+    filter: invert !important;
+}
+.log1{
+font-size: 18px;
+letter-spacing: 2px;
+color: #c6c6c6;
+font-weight: 100;
+}
+.log1 b{
+    color: #ffc451;
+font-weight: 600;
+}
+    .badge1::before{
+        font-size: 11px;
+        content: "new";
+        position: absolute;
+        color: #1c1c24;
+        text-align: center;
+        -webkit-animation:animate 1.5s linear infinite;
+        animation:animate 1.5s linear infinite;
+        background: #ffc451;
+        padding: 0px 3px;
+        border-radius: 3px;
+        font-weight: 700;
+        top: -2px;
+        left: 87px;
+        text-transform: capitalize;
+}
+.badge1{
+margin-right: 34px;
+}
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

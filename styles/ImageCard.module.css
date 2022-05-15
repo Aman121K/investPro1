@@ -1,0 +1,57 @@
+.days{
+    font-size: 14px;
+    margin-top: 12px;
+    color: #ffc451;
+}
+.heading{
+    font-weight: 600;
+    margin-bottom: 25px;
+    font-size: 20px;
+    color: #e3e3e3;
+}
+.amazingVideos {
+    position: relative;
+   }
+   .ovrply svg{
+   position: absolute;
+   fill: #ffc451d6;
+   margin: auto;
+   left: 0;
+   right: 0;
+   top: 0px;
+   bottom: 0px;
+   width: 45px;
+   }
+   .ovrply3{
+   position: relative;
+       width: 100%;
+       margin-bottom: 10px;
+   }
+   .ovrply{
+   position: absolute;
+       width: 100%;
+       height: 100%;
+       background: #00000038;
+   }
+   .height23 .ovrply{
+    max-height: 140px;
+    object-fit: cover;
+}
+   .ovrply:hover{
+    background: #0fa2e100;
+    cursor: pointer;
+   }
+   .ovrply3 span{ 
+   font-size: 1rem;
+   color: #999;
+   text-transform: uppercase;
+   }
+   @media (max-width: 700px){
+    .days{
+        font-size: 12px;
+
+   }
+   .heading{
+    font-size: 16px;
+}
+   }
