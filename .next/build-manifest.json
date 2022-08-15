@@ -15,15 +15,25 @@
     "static/development/_middlewareManifest.js"
   ],
   "pages": {
-    "/": [
+    "/ContactUs": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/pages/ContactUs.js"
     ],
-    "/Upload": [
+    "/Login": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Upload.js"
+      "static/chunks/pages/Login.js"
+    ],
+    "/Products": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Products.js"
+    ],
+    "/Signup": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Signup.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
