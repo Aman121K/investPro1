@@ -11,10 +11,10 @@ function PopularPeople() {
           <Col className="big-col1">
             <Row>
               <Col lg={6}>
-                <CardComponent source={"https://www.alux.com/wp-content/uploads/2017/07/Elon-Musk-Net-Worth-e1499676262256-275x300.jpg"} title={"Text"} text={"Some quick example text to build on the card title and make up the bulk of the cards content."} /> 
+                <CardComponent source={"https://alux-wp-public.s3.amazonaws.com/wp-content/uploads/2023/12/28134747/maxresdefault-20.jpg"} title={"Text"} text={"Some quick example text to build on the card title and make up the bulk of the cards content."} /> 
               </Col>
               <Col lg={6}>
-              <CardComponent source={"https://www.alux.com/wp-content/uploads/2017/07/jeff-bezos-net-worth-alux-how-much-money-does-jeff-bezos-have-from-amazon-and-other-businesses-salary-295x300.jpg"} title={"Text"} text={"Some quick example text to build on the card title and make up the bulk of the cards content."} /> 
+              <CardComponent source={"https://alux-wp-public.s3.amazonaws.com/wp-content/uploads/2024/03/21134746/maxresdefault-8.jpg"} title={"Text"} text={"Some quick example text to build on the card title and make up the bulk of the cards content."} /> 
               </Col>
             </Row>
           
@@ -28,7 +28,8 @@ function PopularPeople() {
               </div>
 
               <div className={styles.hk3}>
-                        <Button>Explore More</Button>
+                        <a href="/AboutUs">
+                        <Button>Explore More</Button></a>
                         </div>
               
           </Col>

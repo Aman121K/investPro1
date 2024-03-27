@@ -41,15 +41,27 @@ width: 100%;
 color: #ddd;
 font-weight: 600;
 }
-@media (max-width: 700px){
-    .popularPeopleDescription{
-        font-size: 14px;
-}
-.jktgh2 h4{
-    font-size: 24px;
-}
-.hk3 button{
-padding: 5px 20px;
-font-size: 13px;
-}
-}
+@media (max-width: 700px) {
+    .popularPeopleDescription {
+      font-size: 14px;
+    }
+  
+    .jktgh2 h4 {
+      font-size: 24px;
+    }
+  
+    .hk3 button {
+      padding: 5px 20px;
+      font-size: 13px;
+    }
+  
+    .jktgh2 {
+       
+      }
+  
+    .jktgh2 h4:after {
+      width: 20%; /* Adjust as needed */
+      margin: 10px 0; /* Adjust as needed */
+    }
+  }
+  

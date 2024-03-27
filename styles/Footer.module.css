@@ -9,11 +9,16 @@
         flex-direction: column-reverse;
         align-items: center;
     }
+
+   
+   
+
 .socila{
 
  fill: aliceblue;
  fill: #333434;
  display: flex;
+
 }
 .socila svg{
     width: 37px;
@@ -24,7 +29,9 @@
     border-radius: 50%;
     fill: #ffc451;
     padding: 9px;
+    
 }
+
 .foot1 ul{
 display: flex;
     list-style: none;
@@ -51,9 +58,16 @@ text-align:center;
 }
 @media (max-width: 700px){
 
-.foot1 ul li{
-margin-right: 30px;
-}
+    .foot1 ul{
+        gap:20px;
+        }
+        .foot1 ul li{
+        margin-right: 50px;
+            color: #25252f;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
 .foot1 ul li:last-child{
     margin: 0px;
 }

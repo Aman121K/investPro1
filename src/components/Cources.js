@@ -31,7 +31,8 @@ function Cources() {
               </p>
               <p className={styles.description}>Begin your journey</p>
               <div className={styles.hk3}>
-                <Button>Enroll Now</Button>
+              <a href="/AllCources">
+                <Button> Enroll Now </Button></a>
               </div>
             </Col>
           </Row>

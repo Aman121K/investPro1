@@ -7,33 +7,6 @@ import SectionHeading from "../components/SectionHeading";
 import Link from "next/link";
 import { getData } from "../api/api";
 
-const mainCourses = [
-  {
-    id: 1,
-    name: "Main Course 1",
-    image:
-      "https://import.cdn.thinkific.com/191701/courses/1430524/srRKifRAR2aUvPHPyMNX_learning%20mastery%20new%20course%20image.jpg",
-    description:
-      "Learning How to Learn is the most valuable skill one can have! This is the only resource you'll need to master Learning!",
-  },
-  {
-    id: 2,
-    name: "Main Course 2",
-    image:
-      "https://import.cdn.thinkific.com/191701/courses/1430524/srRKifRAR2aUvPHPyMNX_learning%20mastery%20new%20course%20image.jpg",
-    description:
-      "Learning How to Learn is the most valuable skill one can have! This is the only resource you'll need to master Learning!",
-  },
-  {
-    id: 3,
-    name: "Main Course 3",
-    image:
-      "https://import.cdn.thinkific.com/191701/courses/1430524/srRKifRAR2aUvPHPyMNX_learning%20mastery%20new%20course%20image.jpg",
-    description:
-      "Learning How to Learn is the most valuable skill one can have! This is the only resource you'll need to master Learning!",
-  },
-];
-
 function AllCources() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -43,23 +16,31 @@ function AllCources() {
   }, []);
 
   const getCourse = async () => {
-    const responce = await getData("/all-courses");
-    setData(responce.data.data);
-    console.log(responce);
+    try {
+      setLoading(true);
+      const response = await getData("/all-courses");
+      setData(response.data || []); // Ensure data is an array or fallback to an empty array
+      console.log(response);
+    } catch (error) {
+      console.error("Error fetching courses:", error);
+    } finally {
+      setLoading(false);
+    }
   };
+
   return (
     <div>
       <Container>
         <div className={styles.heading}>
-          <SectionHeading title={"All Cources"} quote={""} />
+          <SectionHeading title={"All Courses"} quote={""} />
         </div>
         <div className={styles.allCourcesSection}>
           <div className={styles.courcesCards}>
             <Row>
-              {data.map((item, i) => {
-                return (
-                  <Link key={i} href={"/AllVideos"}>
-                    <Col xl={4} lg={6} md={6}>
+              {data.map((item, i) => (
+                <Col key={i} xl={4} lg={6} md={6}>
+                  <Link href="/AllVideos">
+                    <a>
                       <CardComponent
                         paragraphStyle={{ fontSize: 17, textAlign: "center" }}
                         headingStyle={{ fontSize: 40, textAlign: "center" }}
@@ -68,21 +49,21 @@ function AllCources() {
                         title={item.name}
                         text={item.subject}
                       />
-                    </Col>
+                    </a>
                   </Link>
-                );
-              })}
+                </Col>
+              ))}
             </Row>
           </div>
         </div>
       </Container>
       <div className={styles.banner}>
-        <img
+        {/* <img
           className={styles.bannerImage}
           src="https://import.cdn.thinkific.com/191701/AfHi8MSeRn6wjHrFeaGZ_DSC00176-5.jpg"
           width={"100%"}
           height={400}
-        />
+        /> */}
       </div>
       <Container>
         <div className={styles.bottomQuote}>

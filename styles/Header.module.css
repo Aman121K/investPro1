@@ -25,7 +25,7 @@ text-transform: uppercase;
     letter-spacing: 1px;
 }
 .navlinks img{
-  width: 170px;
+  width: 90px;
     image-rendering: -webkit-optimize-contrast;
     padding-left: 0px;
     filter: invert !important;
