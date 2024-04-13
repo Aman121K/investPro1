@@ -1,11 +1,1 @@
-{
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/AllCources": "pages/AllCources.js",
-  "/Upload": "pages/Upload.js",
-  "/AboutUs": "pages/AboutUs.js",
-  "/Login": "pages/Login.js",
-  "/Signup": "pages/Signup.js"
-}
+{"/_app":"pages/_app.js","/_error":"pages/_error.js","/AboutUs":"pages/AboutUs.html","/AllCources":"pages/AllCources.html","/AllVideos/[VideoId]":"pages/AllVideos/[VideoId].html","/AllVideos":"pages/AllVideos.html","/ContactUs":"pages/ContactUs.html","/Login":"pages/Login.html","/Products/[productId]":"pages/Products/[productId].html","/Signup":"pages/Signup.html","/Upload":"pages/Upload.html","/":"pages/index.html","/Products":"pages/Products.html","/_document":"pages/_document.js","/404":"pages/404.html"}
