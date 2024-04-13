@@ -3,6 +3,7 @@ import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 import { MenuItems } from "./Header.data";
 import styles from "../../styles/Header.module.css";
 import AppContext from "../AppContext";
+import WhatsAppButton from "./WhatsAppBtn";
 
 function Header() {
   const value = useContext(AppContext);
@@ -42,6 +43,13 @@ function Header() {
                   </Nav.Link>
                 );
               })}
+              {/* <Nav.Link
+                className={styles.navlinks}
+              >
+                <WhatsAppButton
+                  phoneNumber={9878959972}
+                />
+              </Nav.Link> */}
             </Nav>
             <Nav>
               {/* <Nav.Link className={styles.navlinks} href="/Signup">

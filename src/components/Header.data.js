@@ -8,7 +8,7 @@ export const MenuItems = [
     url: "/AllCources",
   },
   {
-    title: "Contact Us",
+    title: "Feedback",
     url: "/ContactUs",
   },
   {
@@ -19,5 +19,5 @@ export const MenuItems = [
     title: "Shop",
     url: "/Products",
   },
-  
+
 ];

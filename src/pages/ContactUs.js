@@ -39,7 +39,7 @@ function ContactUs() {
             <Col xs={12} md={6} className={styles.kl3}>
               <SectionHeading
                 title={"Contact Us"}
-                quote={"We’re really excited to hear from you!"}
+                quote={"Feedack from Trainees!"}
               />
               <Form.Group className="mb-3">
                 <Form.Label>Full Name</Form.Label>

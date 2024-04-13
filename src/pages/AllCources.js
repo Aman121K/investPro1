@@ -36,7 +36,7 @@ function AllCources() {
           <SectionHeading title={"All Courses"} quote={""} />
         </div>
         <div className={styles.allCourcesSection}>
-          <Carousel cols={2} rows={1} gap={10} loop>
+          <Carousel interval={null}>
             <Carousel.Item>
               <h3 style={{ textAlign: "center" }}>Online coording To India</h3>
               <div style={{ marginBottom: 40, padding: 50 }}>
@@ -99,7 +99,7 @@ function AllCources() {
               </div>
             </Carousel.Item>
             <Carousel.Item>
-              <h3 style={{ textAlign: "center" }}>Online coording To Canada</h3>
+              <h3 style={{ textAlign: "center" }}>Online according To Canada</h3>
               <div style={{ marginBottom: 40, padding: 50 }}>
                 <Row>
                   <Col>
