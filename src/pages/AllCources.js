@@ -33,12 +33,13 @@ function AllCources() {
     <div>
       <Container fluid>
         <div className={styles.heading}>
-          <SectionHeading title={"All Courses"} quote={""} />
+         
         </div>
         <div className={styles.allCourcesSection}>
+        <SectionHeading title={"COURSES WE OFFER"} quote={""} />
           <Carousel interval={null}>
             <Carousel.Item>
-              <h3 style={{ textAlign: "center" }}>Online coording To India</h3>
+              <h2 style={{ textAlign: "center" }}>(Online acoording to India)</h2>
               <div style={{ marginBottom: 40, padding: 50 }}>
                 <Row>
                   <Col>
@@ -76,7 +77,7 @@ function AllCources() {
               </div>
             </Carousel.Item>
             <Carousel.Item>
-              <h3 style={{ textAlign: "center" }}>Offline according To India</h3>
+              <h3 style={{ textAlign: "center" }}>(Offline according to India)</h3>
               <div style={{ marginBottom: 40, padding: 50 }}>
                 <Row>
                   <Col>
@@ -99,7 +100,7 @@ function AllCources() {
               </div>
             </Carousel.Item>
             <Carousel.Item>
-              <h3 style={{ textAlign: "center" }}>Online according To Canada</h3>
+              <h3 style={{ textAlign: "center" }}>(Online according to Canada)</h3>
               <div style={{ marginBottom: 40, padding: 50 }}>
                 <Row>
                   <Col>
@@ -139,7 +140,7 @@ function AllCources() {
               </div>
             </Carousel.Item>
             <Carousel.Item>
-              <h3 style={{ textAlign: "center" }}>Offline according To Canada</h3>
+              <h3 style={{ textAlign: "center" }}>(Offline according to Canada)</h3>
               <div style={{ marginBottom: 40, padding: 50 }}>
                 <Row>
                   <Col>
@@ -167,12 +168,6 @@ function AllCources() {
         </div>
       </Container>
       <div className={styles.banner}>
-        {/* <img
-          className={styles.bannerImage}
-          src="https://import.cdn.thinkific.com/191701/AfHi8MSeRn6wjHrFeaGZ_DSC00176-5.jpg"
-          width={"100%"}
-          height={400}
-        /> */}
       </div>
       <Container>
         <div className={styles.bottomQuote}>

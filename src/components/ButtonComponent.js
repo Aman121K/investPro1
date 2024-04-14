@@ -4,9 +4,11 @@ import styles from "../../styles/ButtonComponent.module.css"
 
 function ButtonComponent({name,click}) {
   return (
+    <a href="/AllCources">
     <div className={styles.buttonContainer}>
         <Button className={styles.btn45} onClick={click}>{name}</Button>
     </div>
+    </a>
   )
 }
 
